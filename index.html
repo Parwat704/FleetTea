@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fleetea - Premium Organic Tea</title>
+  <link rel="stylesheet" href="style.css">
+  <a href="shop.html" target="_blank">Visit our Shop</a>
+
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="logo-removebg-preview.png" alt="Fleetea Logo">
+      <h1>Fleetea</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#top-picks">Top Picks</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#inquiry">Inquiry</a></li>
+      </ul>
+    </nav>
+    <div class="dark-mode-toggle">
+      <span>Dark Mode:</span>
+      <input type="checkbox" id="dark-mode">
+      <label for="dark-mode"></label>
+    </div>
+  </header>
+
+  <!-- Top Picks Section -->
+  <section id="top-picks" class="top-picks">
+    <h2>Our Best Picks</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="green-tea.jpg" alt="Organic Green Tea">
+        <h3>Premium Organic Green Tea</h3>
+        <p>Rich in antioxidants for a healthy lifestyle.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="orthodox-black.jpg" alt="Orthodox Black Tea">
+        <h3>Orthodox Black Tea</h3>
+        <p>A bold flavor for tea enthusiasts.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="golden-tea.jpg" alt="Golden Tea">
+        <h3>Golden Tea</h3>
+        <p> For relaxation.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="about-us">
+    <div class="text">
+      <h2>About Us</h2>
+      <p>
+        Welcome to Fleetea, where we craft the finest organic teas straight from the lush hills of Sumbek, Ilam. 
+        Our mission is to bring you the freshest, most flavorful tea while promoting sustainable farming practices.
+      </p>
+      <p>
+        From traditional black tea to exotic herbal blends, every cup of Fleetea tells a story of purity and quality.
+      </p>
+    </div>
+    <img src="aboutus.jpg" alt="About Fleetea">
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blogs" class="blogs">
+    <h2>Blogs</h2>
+    <div class="blog-posts">
+      <div class="blog-card">
+        <img src="blog-tea1.jpg" alt="Tea Blog 1">
+        <h3>5 Health Benefits of Green Tea</h3>
+      </div>
+      <div class="blog-card">
+        <img src="blog-tea2.jpg" alt="Tea Blog 2">
+        <h3>How to Brew the Perfect Cup of Tea</h3>
+      </div>
+      <div class="blog-card">
+        <img src="blog-tea3.jpg" alt="Tea Blog 3">
+        <h3>Why Organic Tea is Better for You</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inquiry Section -->
+  <section id="inquiry" class="inquiry">
+    <h2>Have Any Questions?</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Fleetea. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Dark Mode -->
+  <script>
+    const darkModeToggle = document.getElementById('dark-mode');
+    darkModeToggle.addEventListener('change', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
